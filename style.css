@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(4, 107, 186);
+   
+    
+}
+nav{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -80px;
+margin-left: 280px;
+
+}
+.header a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    margin-top: -10px;
+}
+.sidebar{
+    height: 600px;
+    width: 300px;
+    background-color: rgb(4, 107, 186);
+    
+  
+}
+.sidebar li{
+    list-style: none;
+    padding:  10px 20px;
+    margin-left:20px;
+    margin-top: 23px;
+      
+   
+    
+}
+.sidebar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+  
+    
+    
+}
+.kajal{
+   
+    margin-left: 300px;
+    margin-top: -385px;
+
+}
+.cont{
+    border: 2px solid black;
+    width: 670px;
+    height: 300px;
+    
+    background-color: yellowgreen;
+}
+.mm{
+    border: 2px solid black;
+    width: 670px;
+    height: 300px;
+    margin-left: 673px;
+    margin-top: -305px;
+    background-color: blue;
+
+}
+.rita{
+    border: 2px solid black;
+    width: 670px;
+    height: 300px;
+    margin-top: -3px;
+    background-color: brown;
+
+}
+.jk{
+    border: 2px solid black;
+    width: 670px;
+    height: 300px;
+    margin-left: 673px;
+    margin-top: -302px;
+    background-color: pink;
+ 
+}
+
+.cont h1{
+    color: white;
+    margin-left: 250px;
+    margin-top: 50px;
+    
+   
+}
+.cont h2{
+    color: blue;
+    margin-left: 250px;
+    margin-top: -35px;
+    
+    margin-left: 370px;
+    font-size: 29px;
+}
+.cont h3{
+    color: white;
+    margin-left: 600px;
+    margin-bottom: -50px;
+}
+.cont p{
+    text-align: center;
+    margin-top: 23px;
+}
