@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            body{
+                margin: 0;
+            }
+            ul.topnav{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: red;
+                 
+            }
+            ul.topnav li a{
+                display: block;
+                text-align: center;
+                color: blue;
+                padding: 14px 16px;
+                text-decoration: none;
+
+            }
+            ul.topnav li a:hover:not(.active){
+                background-color: yellow;
+
+            }
+            ul.topnav li a:active{
+                background-color: blue;
+
+            }
+            ul.topnav li.right{
+                float: left;
+            }
+            ul.topnav li{
+                float: left;
+                padding-left: 40px;
+            }
+            @media screen and (max-width:600px){
+                ul.topnav li.right, ul.topnav li{
+                    float: none;
+                }
+           
+            }
+              
+           
+
+        </style>
+    </head>
+    <body>
+       
+        <ul class="topnav">
+            <span>home</span>
+             <li><a href="#" class="active">Home</a></li>
+              
+           
+             <li> <a href="#">News</a> </li>
+             <li> <a href="#">content</a></li>
+             <li class="right"><a href="#">About</a> </li>
+        </ul>
+
+    </body>
+</html>
